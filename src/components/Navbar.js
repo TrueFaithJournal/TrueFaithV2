@@ -57,7 +57,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                New Journal Entry
+                New Journal Entries
               </Link>
             </li>
 
