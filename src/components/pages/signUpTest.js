@@ -1,3 +1,6 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 // Wait for the DOM content to load before executing JavaScript
 document.addEventListener('DOMContentLoaded', function() {
     // Function to create a new DOM element with specified attributes
