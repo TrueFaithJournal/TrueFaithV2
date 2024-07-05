@@ -25,61 +25,63 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   return (
-    <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            True Faith 
+    <div>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            True Faith
             <i class="fa fa-free-code-camp" aria-hidden="true"></i>
-
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
+          <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fa-solid fa-times' : 'fa-solid fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link to='/ourmission' className='nav-links' onClick={closeMobileMenu}>
+            <li className="nav-item">
+              <Link
+                to="/ourmission"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Our Mission
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <Link
-                to='/previousentries'
-                className='nav-links'
+                to="/previousentries"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Previous Entries
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <Link
-                to='/newentry'
-                className='nav-links'
+                to="/newentry"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 New Journal Entries
               </Link>
             </li>
-
-            <li>
+            <li className="nav-item">
               <Link
-                to='/sign-up'
-                className='nav-links-mobile'
+                to="/sign-up"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Sign Up
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>Sign Up</Button>} */}
         </div>
       </nav>
-    </>
+    </div>
   );
 }
 
