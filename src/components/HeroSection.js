@@ -6,14 +6,14 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src="/videos/greenbackground2.mp4" autoPlay loop muted />
+      <image src="/images/staticbackground.webp" autoPlay loop muted />
       <h1>What is on your mind today?</h1>
       <p>How can the Word help?</p>
       <div className="hero-btns">
         <Button className='btns' buttonStyle='btn--outline'
-        buttonSize='btn--large'>Log New Entry</Button>
+        buttonSize='btn--large'>Sign-In/Sign-Up</Button>
         <Button className='btns' buttonStyle='btn--primary'
-        buttonSize='btn--large'>View Previous Entries</Button>
+        buttonSize='btn--large'>How Does It Work?</Button>
       </div>
     </div>
   )

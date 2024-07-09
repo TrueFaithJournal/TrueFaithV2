@@ -11,7 +11,7 @@ function Card() {
             <ul className='card__items'>
                 <ApostleCard
                 src="images/mountaincross.jpg"
-                text="See how each of Jesus`s 12 Apostles can bring you serenity"
+                /*text="See how each of Jesus`s 12 Apostles can bring you serenity"*/
                 label='Ask an Apostle'
                 path='/' />
             </ul>
