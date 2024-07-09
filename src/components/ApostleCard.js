@@ -13,7 +13,7 @@ export default function ApostleCard() {
         marginheight="0px"
         marginwidth="0px"
         id="toolsetiframe"
-        height="600px"
+        height="800px"
         width="2000px"
         allowfullscreen
       ></iframe>

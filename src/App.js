@@ -16,10 +16,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/OurMission" exact element={<OurMission />} />
-          <Route path="/previousentries" exact element={<PreviousEntries />} />
-          <Route path="/newentry" exact element={<NewEntry />} />
-          <Route path="/askanapostle" exact element={<ApostleCard />} />
+          <Route path="/Our-Mission" exact element={<OurMission />} />
+          <Route path="/previous-entries" exact element={<PreviousEntries />} />
+          <Route path="/new-entry" exact element={<NewEntry />} />
+          <Route path="/ask-an-apostle" exact element={<ApostleCard />} />
           <Route path="/sign-up" exact element={<SignUp />} />
         </Routes>
       </Router>
