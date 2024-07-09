@@ -1,21 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ApostleCard(props) {
+export default function ApostleCard() {
   return (
-    <>
-      <li className="cards__item">
-        <Link className="cards__item__link" to={props.path}>
-            <figure className="cards__item__pic-wrap" data-category={props.label}>
-                <img src={props.src} alt="Ask An Apostle" className="cards__item__img"/>
-            </figure>
-            <div className='cards__item__info'>
-                <h5 className='cards__item__text'>{props.text}</h5>
-            </div>
-        </Link>
-      </li>
-    </>
-  )
-}
+    <div id="iframeContainer2">
+      <iframe
+        src="https://app.fitleadspro.ai/v2/preview/ABhDHyeuGllF1GLUI10N?notrack=true"
+        allow="clipboard-write"
+        name="FormWise.ai"
+        scrolling="yes"
+        frameborder="0"
+        marginheight="0px"
+        marginwidth="0px"
+        id="toolsetiframe"
+        height="600px"
+        width="2000px"
+        allowfullscreen
+      ></iframe>
+    </div>
+  );
 
-export default ApostleCard
+}

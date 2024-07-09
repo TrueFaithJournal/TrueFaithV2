@@ -70,6 +70,15 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
+                to="/askanapostle"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Ask An Apostle
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
                 to="/sign-up"
                 className="nav-links"
                 onClick={closeMobileMenu}
