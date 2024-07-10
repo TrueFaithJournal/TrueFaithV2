@@ -44,7 +44,7 @@ function SignUp() {
           name="remember"
           style={{ marginBottom: '15px' }}
         />{' '}
-        Remember me
+        Remember me!
       </label>
 
       <p>
