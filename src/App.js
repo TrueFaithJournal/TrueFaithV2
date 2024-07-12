@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import PreviousEntries from './components/pages/PreviousEntries';
 import NewEntry from './components/pages/NewEntry';
-import OurMission from './components/pages/OurMission';
+// import OurMission from './components/pages/OurMission';
 import SignUp from './components/pages/SignUp';
 import ApostleCard from './components/ApostleCard';
 
@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/Our-Mission" exact element={<OurMission />} />
+          {/* <Route path="/Our-Mission" exact element={<OurMission />} /> */}
           <Route path="/previous-entries" exact element={<PreviousEntries />} />
           <Route path="/new-entry" exact element={<NewEntry />} />
           <Route path="/ask-an-apostle" exact element={<ApostleCard />} />

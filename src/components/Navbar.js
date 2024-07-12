@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-// import {ReactComponent as Logo } from '/public/images/TrueFaithLogo.jpg';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -25,43 +24,32 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
-
-
   return (
     <div>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            {/* <div>
-              <Logo />
-            </div> */}
-            { <img src="images/TrueFaithIcon.png"></img>}
-          </Link>
+          <div className="navbar-logo-container">
+            <Link to="/" onClick={closeMobileMenu}>
+              <img
+                className="navbar-logo"
+                src="images/TrueFaithLogo.jpg"
+                alt="nav bar logo"
+              ></img>
+            </Link>
+          </div>
+
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fa-solid fa-times' : 'fa-solid fa-bars'} />
           </div>
+
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/our-mission"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Our Mission
-              </Link>
-            </li>
             <li className="nav-item">
               <Link
                 to="/previous-entries"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Previous Entries
+                Why True Faith Journal?
               </Link>
             </li>
             <li className="nav-item">
@@ -79,7 +67,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Ask An Apostle
+                Login
               </Link>
             </li>
             <li className="nav-item">
@@ -88,7 +76,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-               Get Started
+                Get Started
               </Link>
             </li>
           </ul>

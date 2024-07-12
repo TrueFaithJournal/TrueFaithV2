@@ -1,6 +1,4 @@
 .navbar {
-  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-  background-color: #f7f3e9;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -8,7 +6,7 @@
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  z-index: 999;
+  /* z-index: 999; */
 }
 
 .navbar-container {
@@ -16,11 +14,22 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
+  width: 100%;
+  /* max-width: 1500px; */
+}
+
+.navbar-logo-container {
+  padding-bottom: 65px;
+  padding-left: 20px;
 }
 
 .navbar-logo {
-  color: #fff;
+  width: 70px;
+  height: 66px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  /* color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -29,7 +38,7 @@
   height: 20px;
   width: 30px;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 
 .fa-typo3 {
@@ -43,13 +52,24 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 100%;
   justify-content: end;
   margin-right: 2rem;
 }
 
 .nav-item {
   height: 80px;
+  padding-top: 30px;
+}
+
+.content-hover {
+  padding-top: 100px;
+  display: none;
+}
+
+.whyTF:hover .content-hover {
+  padding-top: 100px;
+  display: flex;
 }
 
 .nav-links {
@@ -57,8 +77,10 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   height: 100%;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .nav-links:hover {
