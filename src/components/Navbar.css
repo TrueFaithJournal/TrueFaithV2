@@ -1,5 +1,6 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  background-color: #f7f3e9;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -25,6 +26,8 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
+  height: 20px;
+  width: 30px;
   display: flex;
   align-items: center;
 }
@@ -50,21 +53,21 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: .75rem 1.5rem;
   height: 100%;
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 8px solid #000;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #fff;
+  color: #000;
 }
 
 .nav-links-mobile {
@@ -93,7 +96,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #f7f3e9;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -113,8 +116,16 @@
     border-radius: 0;
   }
 
+  img {
+    height: 30px;
+    width: 30px;
+  }
+
   .navbar-logo {
+    color: #000;
     position: absolute;
+    height: 25px;
+    width: 25px;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
@@ -131,7 +142,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: #000;
     font-size: 2rem;
   }
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+// import {ReactComponent as Logo } from '/public/images/TrueFaithLogo.jpg';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -24,13 +25,17 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
+
+
   return (
     <div>
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            True Faith
-            <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+            {/* <div>
+              <Logo />
+            </div> */}
+            { <img src="images/TrueFaithIcon.png"></img>}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fa-solid fa-times' : 'fa-solid fa-bars'} />
@@ -83,7 +88,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+               Get Started
               </Link>
             </li>
           </ul>

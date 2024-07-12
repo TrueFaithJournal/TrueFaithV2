@@ -4,6 +4,7 @@ import '../../App.css';
 function SignUp() {
   return (
     <div>
+      <img src="/images/staticbackground.webp" autoPlay loop muted></img>
       <h1>Sign Up</h1>
       <p>Please fill in this form to create an account.</p>
       <br />

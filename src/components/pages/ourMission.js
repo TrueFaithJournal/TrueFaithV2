@@ -6,6 +6,7 @@ import Navbar from '../Navbar';
 function OurMission() {
   return (
     <div className="ourMission">
+      <img src="/images/staticbackground.webp" autoPlay loop muted></img>
       <h1 className="mission">
         Bridging Hearts to God and Self Through Scripture and Prayer
       </h1>

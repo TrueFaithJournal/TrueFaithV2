@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <image src="/images/staticbackground.webp" autoPlay loop muted />
+      <img src="/images/staticbackground.webp" autoPlay loop muted></img>
       <h1>What is on your mind today?</h1>
       <p>How can the Word help?</p>
       <div className="hero-btns">
