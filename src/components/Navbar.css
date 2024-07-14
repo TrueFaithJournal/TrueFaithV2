@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   z-index: 999;
-  width: 100%
+  width: 100%;
 }
 
 .navbar-container {
@@ -21,16 +21,15 @@
 }
 
 .navbar-logo-container {
-  padding-bottom: 70px;
-  padding-left: 20px;
+  padding-right: 200px;
 }
 
 .navbar-logo {
   width: 250px;
   height: 82px;
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
-  margin-bottom: 40px;
+  margin-bottom: 40px; */
   /* color: #fff;
   justify-self: start;
   margin-left: 20px;
@@ -68,7 +67,6 @@
   padding-top: 100px;
   display: none;
 }
-
 
 .nav-links {
   color: #000;

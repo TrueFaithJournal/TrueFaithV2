@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import "./NavDrop.js";
+import './NavDrop.js';
 import WhyTF from './WhyTF.js';
 import './WhyTF.css';
 
@@ -30,30 +30,34 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar">
+        {/* <div className="navbar-logo-container">
+          <a href="/" onClick={closeMobileMenu}>
+            <div>Test logo</div>
+            <img
+              src="images/TrueFaithLogoWide.jpg"
+              className="navbar-logo"
+              alt="nav bar logo"
+            />
+          </a>
+        </div> */}
         <div className="navbar-container">
-          <div className="navbar-logo-container">
-            <Link to="/" onClick={closeMobileMenu}>
-              <img
-                className="navbar-logo"
-                src="images/TrueFaithLogoWide.jpg"
-                alt="nav bar logo"
-              ></img>
-            </Link>
-          </div>
-
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fa-solid fa-times' : 'fa-solid fa-bars'} />
           </div>
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
               <WhyTF />
               <Link
                 to="/"
                 className="nav-links"
-                onClick={<WhyTF />}
-              >
-              </Link>
+                onClick={closeMobileMenu}
+              ></Link>
             </li>
             <li className="nav-item">
               <Link

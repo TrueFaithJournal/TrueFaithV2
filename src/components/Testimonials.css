@@ -1,0 +1,15 @@
+.testimonial-title {
+  padding-top: 40px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-card {
+  width: 300px;
+  height: 200px;
+  border: 2px red solid;
+  margin: 20px;
+}

@@ -7,7 +7,7 @@ import PreviousEntries from './components/pages/PreviousEntries';
 import NewEntry from './components/pages/NewEntry';
 import SignUp from './components/pages/SignUp';
 import ApostleCard from './components/ApostleCard';
-import OurMission from './components/pages/OurMission';
+// import OurMission from './components/pages/OurMission';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/Our-Mission" exact element={<OurMission />} />
+          {/* <Route path="/Our-Mission" exact element={<OurMission />} /> */}
           <Route path="/previous-entries" exact element={<PreviousEntries />} />
           <Route path="/new-entry" exact element={<NewEntry />} />
           <Route path="/ask-an-apostle" exact element={<ApostleCard />} />
