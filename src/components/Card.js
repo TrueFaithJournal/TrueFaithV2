@@ -1,5 +1,5 @@
 import React from 'react'
-import ApostleCard from './ApostleCard'
+// import ApostleCard from './ApostleCard'
 import './Card.css';
 
 function Card() {
@@ -9,7 +9,7 @@ function Card() {
       <div className='card__container'>
         <div className='card__wrapper'>
             <ul className='card__items'>
-                <ApostleCard
+                <Card
                 src="images/mountaincross.jpg"
                 /*text="See how each of Jesus`s 12 Apostles can bring you serenity"*/
                 label='Ask an Apostle'

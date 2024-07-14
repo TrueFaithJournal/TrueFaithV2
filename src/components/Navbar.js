@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import "./NavDrop.js";
+import WhyTF from './WhyTF.js';
+import './WhyTF.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -32,7 +35,7 @@ function Navbar() {
             <Link to="/" onClick={closeMobileMenu}>
               <img
                 className="navbar-logo"
-                src="images/TrueFaithLogo.jpg"
+                src="images/TrueFaithLogoWide.jpg"
                 alt="nav bar logo"
               ></img>
             </Link>
@@ -44,12 +47,12 @@ function Navbar() {
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
+              <WhyTF />
               <Link
-                to="/previous-entries"
+                to="/"
                 className="nav-links"
-                onClick={closeMobileMenu}
+                onClick={<WhyTF />}
               >
-                Why True Faith Journal?
               </Link>
             </li>
             <li className="nav-item">
@@ -80,7 +83,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {/* {button && <Button buttonStyle='btn--outline'>Sign Up</Button>} */}
+          {/* {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}  */}
         </div>
       </nav>
     </div>

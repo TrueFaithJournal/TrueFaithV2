@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
 import Navbar from '../Navbar';
+import './OurMission.css';
 
 function OurMission() {
   return (
@@ -11,7 +12,7 @@ function OurMission() {
         Bridging Hearts to God and Self Through Scripture and Prayer
       </h1>
       <br></br>
-      <p1>At True Faith Journal, our mission is to nurture the soul by bridging the gap between personal
+      <p1 className='mission-statement'>At True Faith Journal, our mission is to nurture the soul by bridging the gap between personal
          reflection and divine guidance. We believe that every journal entry is an opportunity to deepen
           one’s relationship with God and cultivate self-confidence. Through our innovative application,
            we transform these intimate reflections into personalized spiritual support, offering carefully
@@ -22,7 +23,7 @@ function OurMission() {
               their inner strength and divine grace at every step of their journey.</p1>
               <br></br>
               <br></br>
-      <p2>TFJ offers instant, personalized Bible scriptures and prayers to calm your heart and provide 
+      <p2 className='selling point'>TFJ offers instant, personalized Bible scriptures and prayers to calm your heart and provide 
         deeper context beyond popular verses, eliminating the need to Google specific topics, while
          encouraging regular prayer, introspection, and documenting your growth journey, ultimately 
          offering peace through truth.</p2>

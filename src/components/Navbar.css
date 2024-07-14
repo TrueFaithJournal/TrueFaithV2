@@ -1,12 +1,14 @@
 .navbar {
-  height: 80px;
+  background-color: #f7f3e9;
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  position: fixed;
   top: 0;
-  /* z-index: 999; */
+  z-index: 999;
+  width: 100%
 }
 
 .navbar-container {
@@ -19,16 +21,16 @@
 }
 
 .navbar-logo-container {
-  padding-bottom: 65px;
+  padding-bottom: 70px;
   padding-left: 20px;
 }
 
 .navbar-logo {
-  width: 70px;
-  height: 66px;
+  width: 250px;
+  height: 82px;
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   /* color: #fff;
   justify-self: start;
   margin-left: 20px;
@@ -67,20 +69,17 @@
   display: none;
 }
 
-.whyTF:hover .content-hover {
-  padding-top: 100px;
-  display: flex;
-}
 
 .nav-links {
   color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
+  justify-content: flex start;
   padding: 0.75rem 1.5rem;
   height: 100%;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .nav-links:hover {
