@@ -23,16 +23,15 @@ function OurMission() {
               their inner strength and divine grace at every step of their journey.</p1>
               <br></br>
               <br></br>
-      <p2 className='selling point'>TFJ offers instant, personalized Bible scriptures and prayers to calm your heart and provide 
-        deeper context beyond popular verses, eliminating the need to Google specific topics, while
-         encouraging regular prayer, introspection, and documenting your growth journey, ultimately 
-         offering peace through truth.</p2>
 <br></br>
 <br></br>
-<div class="container">
+<div class="benefit-container">
         <h1>Benefits to Others</h1>
 
-        <p>TFJ offers instant, personalized Bible scriptures and prayers to calm your heart and provide deeper context beyond popular verses, eliminating the need to Google specific topics, while encouraging regular prayer, introspection, and documenting your growth journey, ultimately offering peace through truth.</p>
+        <p className='selling-point'>TFJ offers instant, personalized Bible scriptures and prayers to calm
+         your heart and provide deeper context beyond popular verses, eliminating the need to Google
+          specific topics, while encouraging regular prayer, introspection, and documenting your growth
+           journey, ultimately offering peace through truth.</p>
 
         <h2>Benefits:</h2>
         <ol>

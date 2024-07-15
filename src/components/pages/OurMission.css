@@ -1,6 +1,6 @@
 .mission {
     padding-top: 160px;
-    font-size: 60px;
+    font-size: 55px;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -16,7 +16,18 @@
 .mission-statement {
     font-size: 25px;
     color: #000;
-    align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    /* background-color: #fff; */
+}
+
+.benefit-container {
+    font-size: 20px;
+    height: 600px;
+    width: 1500px;
+    color: #000;
+    padding-left: 50px;
+    padding-right: 10px;
+    background-color: #fff;
+    border: 25px #000 solid;
 }

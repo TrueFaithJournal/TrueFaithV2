@@ -70,7 +70,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/ask-an-apostle"
+                to="/sign-up"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
