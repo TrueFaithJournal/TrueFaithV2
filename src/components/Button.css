@@ -41,6 +41,7 @@
     font-weight: bold;
     font-size: 30px;
     color: #000;
-    border: 6px solid rgb(139, 27, 27);
+    border: 8px solid rgb(139, 27, 27);
+    border-radius: 40px;
     transition: 250ms;
   }

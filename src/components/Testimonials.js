@@ -8,7 +8,7 @@ function Testimonials() {
       Title: 'Engineer',
       Name: 'Calvin',
       Age: '25',
-      Testimonial: 'Love this website',
+      Testimonial: '"True Faith has helped me build a more passionate and consistent relationship with the Lord."',
       Image: '',
     },
     {
@@ -16,32 +16,25 @@ function Testimonials() {
       Title: 'iOS Engineer',
       Name: 'Daniel',
       Age: '37',
-      Testimonial: 'This website changed my life',
+      Testimonial: '"This website changed my life!"',
     },
     {
       id: 3,
       Title: 'Coach',
       Name: 'John',
       Age: 'Ageless',
-      Testimonial: 'This is peanut butter to my jelly',
-    },
-    {
-      id: 4,
-      Title: 'Best Friend',
-      Name: 'Winnie',
-      Age: 'Ageless',
-      Testimonial: 'Roof Roof',
+      Testimonial: '"This is peanut butter to my jelly."',
     },
   ];
 
   const testimonialCards = data.map((testimonial) => (
     <div className="testimonial-card" key={testimonial.id}>
-      <div>Title: {testimonial.Title}</div>
       <div className="name-age-container">
-        <div>Name: {testimonial.Name}</div>
-        <div>Age: {testimonial.Age}</div>
+        <div className='testimonial-name'>{testimonial.Name},</div>
+        <div>{testimonial.Age},</div>
+        <div>{testimonial.Title},</div>
       </div>
-      <div>Testimonial: {testimonial.Testimonial}</div>
+      <div className='testimonial-field'>{testimonial.Testimonial}</div>
     </div>
   ));
 

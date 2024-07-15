@@ -11,13 +11,13 @@ const DropdownMenu = () => {
   return (
     <div className="dropdown-menu">
       <ul>
-        <Link to="/Our-Mission" className="nav-links">
+        <Link to="/Our-Mission" className="nav-links-our-mission">
           <li>Our Mission</li>
         </Link>
-        <Link to="/testimonials" className="nav-links">
-          <li>Testimonial</li>
+        <Link to="/testimonials" className="nav-links-testimonials">
+          <li>Testimonials</li>
         </Link>
-        <Link to="/ask-an-apostle" className="nav-links">
+        <Link to="/ask-an-apostle" className="nav-links-ask-an-apostle">
           <li>Ask An Apostle</li>
         </Link>
 
