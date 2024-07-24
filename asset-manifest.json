@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TrueFaithV2/static/css/main.86463d9b.css",
+    "main.js": "/TrueFaithV2/static/js/main.9ba40d21.js",
+    "static/js/453.e73036bb.chunk.js": "/TrueFaithV2/static/js/453.e73036bb.chunk.js",
+    "static/media/staticbackground.webp": "/TrueFaithV2/static/media/staticbackground.04b6bc601afe6eb74368.webp",
+    "index.html": "/TrueFaithV2/index.html",
+    "main.86463d9b.css.map": "/TrueFaithV2/static/css/main.86463d9b.css.map",
+    "main.9ba40d21.js.map": "/TrueFaithV2/static/js/main.9ba40d21.js.map",
+    "453.e73036bb.chunk.js.map": "/TrueFaithV2/static/js/453.e73036bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86463d9b.css",
+    "static/js/main.9ba40d21.js"
+  ]
+}
