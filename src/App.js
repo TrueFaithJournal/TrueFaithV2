@@ -10,6 +10,7 @@ import ApostleCard from './components/ApostleCard';
 import OurMission from './components/pages/ourMission';
 import TestimonialPage from './components/pages/TestimonialPage';
 import ApostleJohn from './components/pages/ApostleJohn';
+import ApostleMatthew from './components/pages/ApostleMatthew';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/ask-an-apostle" exact element={<ApostleCard />} />
           <Route path="/sign-up" exact element={<SignUp />} />
           <Route path="/apostlejohn" exact element={<ApostleJohn />} />
+          <Route path="apostlematthew" exact element={<ApostleMatthew />} />
         </Routes>
       </Router>
     </>

@@ -3,6 +3,7 @@ import './ApostleCard.css'
 import { Button } from './Button';
 import './Button.css';
 import { ApostleJohnButton } from './ApostleJohnButton';
+import { ApostleMatthewButton } from './ApostleMatthewButton';
 import { Link } from 'react-router-dom';
 
 export default function ApostleCard() {
@@ -17,13 +18,13 @@ export default function ApostleCard() {
             >
               John
             </ApostleJohnButton>
-      <Button
+      <ApostleMatthewButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               Matthew
-            </Button>
+            </ApostleMatthewButton>
       <Button
               className="btns"
               buttonStyle="btn--outline"
