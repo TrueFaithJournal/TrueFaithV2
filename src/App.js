@@ -7,7 +7,7 @@ import PreviousEntries from './components/pages/PreviousEntries';
 import NewEntry from './components/pages/NewEntry';
 import SignUp from './components/pages/SignUp';
 import ApostleCard from './components/ApostleCard';
-import OurMission from './components/pages/ourMission';
+import OurMission from './components/pages/OurMission';
 import TestimonialPage from './components/pages/TestimonialPage';
 
 function App() {
