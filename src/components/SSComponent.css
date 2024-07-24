@@ -1,3 +1,6 @@
 #iframeContainer {
-  border: 5px solid black;
+  border: 25px solid black;
+  width: 1600px;
+  height: 800px;
+  /* padding-left: 300px; */
 }

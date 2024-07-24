@@ -13,8 +13,8 @@ function SSComponent() {
         marginheight="0px"
         marginwidth="0px"
         id="toolsetiframe"
-        height="600px"
-        width="900px"
+        height="750px"
+        width="1550px"
         allowfullscreen
       ></iframe>
     </div>

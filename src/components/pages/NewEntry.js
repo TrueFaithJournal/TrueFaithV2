@@ -1,6 +1,7 @@
 import React from 'react';
-import '../../App.css';
+// import '../../App.css';
 import SSComponent from '../SSComponent';
+import './NewEntry.css';
 
 export default function NewEntry() {
   return (
@@ -9,7 +10,7 @@ export default function NewEntry() {
       <img src="/images/staticbackground.webp" autoPlay loop muted></img>
       <br></br>
       <br></br>
-      <h1 className="newentry">What`s on your mind?</h1>
+      <h1 className="new-entry">What`s on your mind?</h1>
       <SSComponent />
     </div>
   );
