@@ -3,8 +3,6 @@ import '../App.css';
 import { Button } from './Button';
 import Testimonials from './Testimonials.js';
 import './HeroSection.css';
-// import './Card.js';
-import Card from './Card.js';
 
 function HeroSection() {
   return (
@@ -39,10 +37,7 @@ function HeroSection() {
           {<video src="/videos/Demo.mov" autoPlay loop muted />}
         </div>
       </div>
-      {/* <div className="hero-section-bottom">Testimonials</div> */}
-      {/* <div class="card">
-        <img src="images/CalTestimonial.jpg" alt="Avatar"></img>
-      </div> */}
+
     </div>
   );
 }

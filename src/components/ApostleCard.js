@@ -1,10 +1,50 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import './ApostleCard.css'
+import { Button } from './Button';
+import './Button.css';
+import { ApostleJohnButton } from './ApostleJohnButton';
+import { Link } from 'react-router-dom';
 
 export default function ApostleCard() {
   return (
-    <div id="iframeContainer2">
-      <iframe
+    <div>
+      <h1 className='ApostleChoice'>Which Apostle would you like to speak to?</h1>
+      <div className='apostles'>
+      <ApostleJohnButton
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              John
+            </ApostleJohnButton>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Matthew
+            </Button>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Peter
+            </Button>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Lucas
+            </Button>
+            </div>
+    </div>
+  );
+
+}
+
+   {/* <iframe
         src="https://app.fitleadspro.ai/v2/preview/ABhDHyeuGllF1GLUI10N?notrack=true"
         allow="clipboard-write"
         name="FormWise.ai"
@@ -16,8 +56,4 @@ export default function ApostleCard() {
         height="800px"
         width="2000px"
         allowfullscreen
-      ></iframe>
-    </div>
-  );
-
-}
+      ></iframe> */}
