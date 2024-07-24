@@ -4,11 +4,13 @@ import { Button } from './Button';
 import './Button.css';
 import { ApostleJohnButton } from './ApostleJohnButton';
 import { ApostleMatthewButton } from './ApostleMatthewButton';
+import { ApostlePeterButton } from './ApostlePeterButton';
+import { ApostleJudasButton } from './ApostleJudasButton';
 import { Link } from 'react-router-dom';
 
 export default function ApostleCard() {
   return (
-    <div>
+    <div className='choices'>
       <h1 className='ApostleChoice'>Which Apostle would you like to speak to?</h1>
       <div className='apostles'>
       <ApostleJohnButton
@@ -25,36 +27,78 @@ export default function ApostleCard() {
             >
               Matthew
             </ApostleMatthewButton>
-      <Button
+      <ApostlePeterButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               Peter
+            </ApostlePeterButton>
+      <ApostleJudasButton
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Judas
+            </ApostleJudasButton>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              James the son of Alphaeus (James the Less):
             </Button>
       <Button
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
-              Lucas
+              Philip
+            </Button>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              James of Zebedee
+            </Button>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Andrew
+            </Button>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Thomas
+            </Button>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Bartholomew
+            </Button>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Thaddaeus
+            </Button>
+      <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Simon the Zealot
             </Button>
             </div>
     </div>
   );
 
 }
-
-   {/* <iframe
-        src="https://app.fitleadspro.ai/v2/preview/ABhDHyeuGllF1GLUI10N?notrack=true"
-        allow="clipboard-write"
-        name="FormWise.ai"
-        scrolling="yes"
-        frameborder="0"
-        marginheight="0px"
-        marginwidth="0px"
-        id="toolsetiframe"
-        height="800px"
-        width="2000px"
-        allowfullscreen
-      ></iframe> */}

@@ -6,7 +6,7 @@ const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-export const ApostleMatthewButton = ({
+export const ApostleJudasButton = ({
   children,
   type,
   onClick,
@@ -20,7 +20,7 @@ export const ApostleMatthewButton = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to='/apostle-matthew' className='btn-mobile'>
+    <Link to='/apostle-judas' className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

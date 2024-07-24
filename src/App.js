@@ -11,6 +11,8 @@ import OurMission from './components/pages/ourMission';
 import TestimonialPage from './components/pages/TestimonialPage';
 import ApostleJohn from './components/pages/ApostleJohn';
 import ApostleMatthew from './components/pages/ApostleMatthew';
+import ApostlePeter from './components/pages/ApostlePeter';
+import ApostleJudas from './components/pages/ApostleJudas';
 
 function App() {
   return (
@@ -25,8 +27,10 @@ function App() {
           <Route path="/new-entry" exact element={<NewEntry />} />
           <Route path="/ask-an-apostle" exact element={<ApostleCard />} />
           <Route path="/sign-up" exact element={<SignUp />} />
-          <Route path="/apostlejohn" exact element={<ApostleJohn />} />
-          <Route path="apostlematthew" exact element={<ApostleMatthew />} />
+          <Route path="/apostle-john" exact element={<ApostleJohn />} />
+          <Route path="apostle-matthew" exact element={<ApostleMatthew />} />
+          <Route path="apostle-peter" exact element={<ApostlePeter />} />
+          <Route path="apostle-judas" exact element={<ApostleJudas />} />
         </Routes>
       </Router>
     </>
