@@ -11,6 +11,9 @@ import { ApostlePhilipButton } from './ApostlePhilipButton';
 import { ApostleJamesOfZebedeeButton } from './ApostleJamesOfZebedeeButton';
 import { ApostleAndrewButton } from './ApostleAndrewButton';
 import { ApostleThomasButton } from './ApostleThomasButton';
+import { ApostleBartholomewButton } from './ApostleBartholomewButton';
+import { ApostleThaddaeusButton } from './ApostleThaddaeusButton';
+import { ApostleSimonButton } from './ApostleSimonButton';
 import { Link } from 'react-router-dom';
 
 export default function ApostleCard() {
@@ -81,27 +84,27 @@ export default function ApostleCard() {
             >
               Thomas
             </ApostleThomasButton>
-      <Button
+      <ApostleBartholomewButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               Bartholomew
-            </Button>
-      <Button
+            </ApostleBartholomewButton>
+      <ApostleThaddaeusButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               Thaddaeus
-            </Button>
-      <Button
+            </ApostleThaddaeusButton>
+      <ApostleSimonButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               Simon the Zealot
-            </Button>
+            </ApostleSimonButton>
             </div>
     </div>
   );

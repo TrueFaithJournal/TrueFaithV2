@@ -18,6 +18,9 @@ import ApostlePhilip from './components/pages/ApostlePhilip';
 import ApostleJamesOfZebedee from './components/pages/ApostleJamesOfZebedee';
 import ApostleAndrew from './components/pages/ApostleAndrew';
 import ApostleThomas from './components/pages/ApostleThomas';
+import ApostleBartholomew from './components/pages/ApostleBartholomew';
+import ApostleThaddaeus from './components/pages/ApostleThaddaeus';
+import ApostleSimon from './components/pages/ApostleSimon';
 
 function App() {
   return (
@@ -41,6 +44,9 @@ function App() {
           <Route path="apostle-james-of-zebedee" exact element={<ApostleJamesOfZebedee />} />
           <Route path="apostle-andrew" exact element={<ApostleAndrew />} />
           <Route path="apostle-thomas" exact element={<ApostleThomas />} />
+          <Route path="apostle-bartholomew" exact element={<ApostleBartholomew />} />
+          <Route path="apostle-thaddaeus" exact element={<ApostleThaddaeus />} />
+          <Route path="apostle-simon" exact element={<ApostleSimon />} />
         </Routes>
       </Router>
     </>
