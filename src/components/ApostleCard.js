@@ -6,6 +6,11 @@ import { ApostleJohnButton } from './ApostleJohnButton';
 import { ApostleMatthewButton } from './ApostleMatthewButton';
 import { ApostlePeterButton } from './ApostlePeterButton';
 import { ApostleJudasButton } from './ApostleJudasButton';
+import { ApostleJamesButton } from './ApostleJamesButton';
+import { ApostlePhilipButton } from './ApostlePhilipButton';
+import { ApostleJamesOfZebedeeButton } from './ApostleJamesOfZebedeeButton';
+import { ApostleAndrewButton } from './ApostleAndrewButton';
+import { ApostleThomasButton } from './ApostleThomasButton';
 import { Link } from 'react-router-dom';
 
 export default function ApostleCard() {
@@ -41,41 +46,41 @@ export default function ApostleCard() {
             >
               Judas
             </ApostleJudasButton>
-      <Button
+      <ApostleJamesButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               James the son of Alphaeus (James the Less):
-            </Button>
-      <Button
+            </ApostleJamesButton>
+      <ApostlePhilipButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               Philip
-            </Button>
-      <Button
+            </ApostlePhilipButton>
+      <ApostleJamesOfZebedeeButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               James of Zebedee
-            </Button>
-      <Button
+            </ApostleJamesOfZebedeeButton>
+      <ApostleAndrewButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               Andrew
-            </Button>
-      <Button
+            </ApostleAndrewButton>
+      <ApostleThomasButton
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
               Thomas
-            </Button>
+            </ApostleThomasButton>
       <Button
               className="btns"
               buttonStyle="btn--outline"

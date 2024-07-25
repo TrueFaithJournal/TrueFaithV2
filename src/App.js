@@ -13,6 +13,11 @@ import ApostleJohn from './components/pages/ApostleJohn';
 import ApostleMatthew from './components/pages/ApostleMatthew';
 import ApostlePeter from './components/pages/ApostlePeter';
 import ApostleJudas from './components/pages/ApostleJudas';
+import ApostleJames from './components/pages/ApostleJames';
+import ApostlePhilip from './components/pages/ApostlePhilip';
+import ApostleJamesOfZebedee from './components/pages/ApostleJamesOfZebedee';
+import ApostleAndrew from './components/pages/ApostleAndrew';
+import ApostleThomas from './components/pages/ApostleThomas';
 
 function App() {
   return (
@@ -31,6 +36,11 @@ function App() {
           <Route path="apostle-matthew" exact element={<ApostleMatthew />} />
           <Route path="apostle-peter" exact element={<ApostlePeter />} />
           <Route path="apostle-judas" exact element={<ApostleJudas />} />
+          <Route path="apostle-james" exact element={<ApostleJames />} />
+          <Route path="apostle-philip" exact element={<ApostlePhilip />} />
+          <Route path="apostle-james-of-zebedee" exact element={<ApostleJamesOfZebedee />} />
+          <Route path="apostle-andrew" exact element={<ApostleAndrew />} />
+          <Route path="apostle-thomas" exact element={<ApostleThomas />} />
         </Routes>
       </Router>
     </>
