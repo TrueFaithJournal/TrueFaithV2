@@ -15,6 +15,7 @@ import { ApostleBartholomewButton } from './ApostleBartholomewButton';
 import { ApostleThaddaeusButton } from './ApostleThaddaeusButton';
 import { ApostleSimonButton } from './ApostleSimonButton';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 export default function ApostleCard() {
   return (
@@ -54,7 +55,7 @@ export default function ApostleCard() {
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
-              James the son of Alphaeus (James the Less):
+              James the Less
             </ApostleJamesButton>
       <ApostlePhilipButton
               className="btns"
@@ -106,6 +107,7 @@ export default function ApostleCard() {
               Simon the Zealot
             </ApostleSimonButton>
             </div>
+            <Footer />
     </div>
   );
 
