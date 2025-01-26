@@ -12,7 +12,7 @@ function ApostleThomas() {
         marginheight="0px"
         marginwidth="0px"
         id="toolsetiframe"
-        height="800px"
+        height="850px"
         width="1600px"
         allowfullscreen
       ></iframe>

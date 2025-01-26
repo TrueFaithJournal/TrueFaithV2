@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    
+    <article class='regular'>
+        
+        <input type="button" id="btn1" value="Save Response">
+        
+        <p class="output" id="output1"></p>
+    </article>
+    
+    <script>
+        const txt1 = document.getElementById('toolsetiframe');
+        const btn1 = document.getElementById('btn1');
+        const out1 = document.getElementById('output1');
+        
+        function fun1() {
+            
+            out1.innerHTML = txt1.value;
+            
+        }
+        
+        btn1.addEventListener('click',fun1);
+        
+        
+    </script>
+    
+</body>
+</html>
